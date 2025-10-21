@@ -1,7 +1,7 @@
 import { createClient } from '@sanity/client'
 import imageUrlBuilder from '@sanity/image-url'
 
-// Geçici olarak mock data kullanıyoruz
+// Geçici olarak gerçek veri kullanıyoruz (Vercel'de çalışsın diye)
 const MOCK_MODE = false
 
 export const client = MOCK_MODE ? null : createClient({
