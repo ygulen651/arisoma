@@ -5,7 +5,7 @@ import { motion } from 'framer-motion'
 import { useForm } from 'react-hook-form'
 import { zodResolver } from '@hookform/resolvers/zod'
 import * as z from 'zod'
-import { Mail, Phone, MapPin, Send } from 'lucide-react'
+import { Mail, Phone, Send, MapPin } from 'lucide-react'
 import { Button } from '@/components/ui/button'
 import { Input } from '@/components/ui/input'
 import { Textarea } from '@/components/ui/textarea'
@@ -94,8 +94,7 @@ export default function IletisimPage() {
                 </div>
                 <div>
                   <h3 className="font-semibold text-choco-900 mb-1">Telefon</h3>
-                  <p className="text-choco-600">+90 212 XXX XX XX</p>
-                  <p className="text-choco-600">+90 212 YYY YY YY</p>
+                  <p className="text-choco-600">0090 539 770 18 72</p>
                 </div>
               </div>
 
@@ -105,8 +104,7 @@ export default function IletisimPage() {
                 </div>
                 <div>
                   <h3 className="font-semibold text-choco-900 mb-1">E-posta</h3>
-                  <p className="text-choco-600">info@biskuvifabrikasi.com</p>
-                  <p className="text-choco-600">destek@biskuvifabrikasi.com</p>
+                  <p className="text-choco-600">info@ariso.com.tr</p>
                 </div>
               </div>
 
@@ -117,9 +115,11 @@ export default function IletisimPage() {
                 <div>
                   <h3 className="font-semibold text-choco-900 mb-1">Adres</h3>
                   <p className="text-choco-600">
-                    Organize Sanayi Bölgesi
+                    ATAKÖY 7-8-9-10. KISIM MAH. ÇOBANÇEŞME E-5 YAN YOL CAD.
                     <br />
-                    34XXX İstanbul, Türkiye
+                    F NO: 22 /6 İÇ KAPI NO: 145
+                    <br />
+                    BAKIRKÖY/ İSTANBUL
                   </p>
                 </div>
               </div>
@@ -233,16 +233,23 @@ export default function IletisimPage() {
         </div>
       </div>
 
-      {/* Map Section */}
+      {/* Harita Bölümü */}
       <section className="py-12 bg-gradient-to-b from-cream-50 to-cream-100">
         <div className="container mx-auto px-4">
-          <div className="relative h-96 rounded-2xl overflow-hidden shadow-xl">
-            <div className="absolute inset-0 bg-gradient-to-br from-caramel-500/20 to-gold-400/20 flex items-center justify-center">
-              <div className="text-center">
-                <MapPin size={64} className="mx-auto text-caramel-500 mb-4" />
-                <p className="text-choco-900 text-xl font-semibold">Harita Yükleniyor</p>
-                <p className="text-choco-600">Organize Sanayi Bölgesi, İstanbul</p>
-              </div>
+          <h2 className="text-3xl font-bold text-center text-choco-900 mb-8">Bizi Ziyaret Edin</h2>
+          
+          <div className="bg-white rounded-2xl shadow-xl overflow-hidden max-w-4xl mx-auto">
+            <div className="w-full h-96">
+              <iframe 
+                src="https://maps.google.com/maps?q=40.9946,28.8709&hl=tr&z=15&output=embed"
+                width="100%"
+                height="100%"
+                style={{border:0}}
+                allowFullScreen
+                loading="lazy"
+                referrerPolicy="no-referrer-when-downgrade"
+                title="Konumumuz"
+              ></iframe>
             </div>
           </div>
         </div>

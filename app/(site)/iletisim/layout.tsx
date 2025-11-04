@@ -2,7 +2,7 @@ import { Metadata } from 'next'
 
 export const metadata: Metadata = {
   title: 'İletişim - Bize Ulaşın, Sorularınızı Sorun',
-  description: 'Bisküvi Fabrikası ile iletişime geçin. Telefon: +90 212 XXX XX XX, E-posta: info@biskuvifabrikasi.com. Organize Sanayi Bölgesi, İstanbul. Müşteri hizmetlerimiz size yardımcı olmaya hazır.',
+  description: 'TORİO BİSKÜVİ ÇİKOLATA GIDA SANAYİ VE TİCARET LİMİTED ŞİRKETİ ile iletişime geçin. Telefon: +90 539 770 18 72, E-posta: info@ariso.com.tr. ATAKÖY 7-8-9-10. KISIM MAH. ÇOBANÇEŞME E-5 YAN YOL CAD. F NO: 22 /6 İÇ KAPI NO: 145 BAKIRKÖY/ İSTANBUL',
   keywords: [
     'bisküvi fabrikası iletişim',
     'telefon',

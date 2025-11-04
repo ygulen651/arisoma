@@ -14,9 +14,9 @@ export function OrganizationStructuredData() {
     },
     contactPoint: {
       '@type': 'ContactPoint',
-      telephone: '+90-212-XXX-XX-XX',
+      telephone: '0090 539 770 18 72',
       contactType: 'customer service',
-      email: 'info@biskuvifabrikasi.com',
+      email: 'info@ariso.com.tr',
       availableLanguage: ['Turkish'],
     },
     sameAs: [
