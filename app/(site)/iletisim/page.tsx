@@ -239,7 +239,7 @@ export default function IletisimPage() {
           <h2 className="text-3xl font-bold text-center text-choco-900 mb-8">Bizi Ziyaret Edin</h2>
           
           <div className="bg-white rounded-2xl shadow-xl overflow-hidden max-w-4xl mx-auto">
-            <div className="w-full h-96">
+            <div className="w-full h-[500px] md:h-[600px]">
               <iframe 
                 src="https://maps.google.com/maps?q=40.9946,28.8709&hl=tr&z=15&output=embed"
                 width="100%"

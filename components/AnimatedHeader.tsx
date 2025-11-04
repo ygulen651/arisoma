@@ -66,16 +66,17 @@ export default function AnimatedHeader() {
         {/* Logo */}
         <Link href="/" className="flex items-center space-x-3 group flex-1 max-w-[70%] md:max-w-none">
           <motion.div 
-            whileHover={{ scale: 1.05 }} 
+            whileHover={{ scale: 1.02 }} 
             transition={{ duration: 0.2 }} 
-            className="relative h-12 md:h-12 w-[200px] md:w-[400px] overflow-hidden mt-2 md:mt-2.5"
+            className="relative h-16 md:h-20 w-[90px] md:w-[140px] overflow-hidden"
+            style={{ marginTop: '1.rem' }}
           >
             <Image
               src="/logo.png"
               alt="Ariso Logo"
               fill
               sizes="(min-width: 768px) 260px, 220px"
-              className="object-contain scale-[2.2] md:scale-[3]"
+              className="object-cover object-center"
               priority
             />
           </motion.div>
