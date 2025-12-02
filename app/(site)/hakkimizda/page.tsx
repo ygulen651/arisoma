@@ -6,24 +6,24 @@ import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from '@/
 
 const milestones = [
   {
-    year: '1995',
-    title: 'Kuruluş',
-    description: 'İstanbul\'da küçük bir atölye olarak bisküvi üretimine başladık. İlk ürünümüz klasik sütlü bisküvi oldu.',
+    year: '1999-2014',
+    title: 'İlk Adımlar',
+    description: 'Ülker ile iş birliği içinde Kazakistan, Ukrayna, İstanbul ve Karaman\'daki yatırımlarda önemli bir iş ortağı olarak çalıştık.',
   },
   {
-    year: '2005',
-    title: 'İnovasyon',
-    description: 'Modern üretim tesisimize geçtik. Ar-Ge departmanımızı kurduk ve yeni tarifler geliştirmeye başladık.',
+    year: '2014',
+    title: 'Yeni Dönem',
+    description: 'Tayyar Yatırım olarak hisselerimizi sattık ve kendi markamız Ariso ile yola devam etmek için Modern Çikolata fabrikasını kurduk.',
   },
   {
-    year: '2012',
-    title: 'İhracat',
-    description: 'İlk ihracatımızı gerçekleştirdik. Bugün 30\'dan fazla ülkeye ürün gönderiyoruz.',
+    year: '2015',
+    title: 'Ariso Markası',
+    description: 'Ariso markası olarak yıllık 140.000 ton kapasiteye sahip Modern Çikolata tesislerinde üretime başladık.',
   },
   {
-    year: '2020',
-    title: 'Sürdürülebilirlik',
-    description: 'Çevre dostu üretim süreçlerine geçiş yaptık. Tüm sertifikalarımızı yeniledik.',
+    year: '2024',
+    title: 'Geniş Ürün Yelpazesi',
+    description: 'Bisküvi, çikolata, kek, kraker, çikolata bar, gofret ve kremalı çikolata olmak üzere 7 ana kategoride 300\'den fazla ürünle hizmet veriyoruz.',
   },
 ]
 
@@ -64,7 +64,7 @@ export default function HakkimizdaPage() {
             Hikayemiz
           </h1>
           <p className="text-xl md:text-2xl max-w-3xl mx-auto text-cream-100">
-            1995&apos;ten beri kalite ve lezzet konusunda ödün vermeden, geleneksel tariflerimizi modern teknoloji ile buluşturuyoruz.
+            Ariso markası, 2015 yılında xxx&apos;ın gıda sektörüne yaptığı yatırımla yıllık 140.000 ton kapasiteye ve 30 yıllık sektör tecrübesine sahip Modern Çikolata tesislerinde üretilmektedir. Portföyünde bisküvi, çikolata, kek, kraker, çikolata bar, gofret ve kremalı çikolata olmak üzere 7 ana kategoride 300&apos;den fazla ürün barındırır. Ülker&apos;in, 1999-2014 yılları arasında Kazakistan, Ukrayna, İstanbul ve Karaman yatırımlarının bir iş ortağı olan Tayyar Yatırım, 2014 yılında hisselerini sattı ve aynı sektörlerde çalışmalarına devam etmek için Modern Çikolata fabrikasını kurdu.
           </p>
         </motion.div>
 
@@ -147,30 +147,6 @@ export default function HakkimizdaPage() {
             </Accordion>
           </div>
         </div>
-      </section>
-
-      {/* Factory Illustration */}
-      <section className="py-20 bg-choco-900 relative overflow-hidden">
-        <div className="container mx-auto px-4 text-center relative z-10">
-          <motion.div
-            initial={{ opacity: 0, scale: 0.9 }}
-            whileInView={{ opacity: 1, scale: 1 }}
-            viewport={{ once: true }}
-          >
-            <Factory size={120} className="mx-auto text-gold-400 mb-6" />
-            <h2 className="text-4xl font-serif font-bold text-cream-50 mb-4">
-              Modern Üretim Tesisimiz
-            </h2>
-            <p className="text-cream-100 text-lg max-w-2xl mx-auto">
-              5000 m² kapalı alanda, son teknoloji makinelerle günde 10 ton üretim kapasitesi.
-              Tüm ürünlerimiz ISO 9001, ISO 22000, BRC ve HACCP sertifikalı tesisimizde üretiliyor.
-            </p>
-          </motion.div>
-        </div>
-
-        {/* Subtle Background Elements */}
-        <div className="absolute top-10 left-1/4 w-32 h-32 bg-cream-50/30 rounded-full animate-gentle-pulse" />
-        <div className="absolute top-20 right-1/3 w-40 h-40 bg-caramel-500/20 rounded-full animate-gentle-pulse" style={{ animationDelay: '1s' }} />
       </section>
     </div>
   )
